@@ -1,0 +1,118 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(229, 242, 253);
+}
+ .header{
+    background-color: cyan;
+    height: 90px;
+}
+ .header h1{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 27px 0px;
+}
+.navbar{
+    display: flex;
+}
+.nav{
+    margin-top: 0.5%;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background-color: black;
+    padding: 1% 0px;
+    text-align: center;
+}
+.nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    font-size: 18px;
+    background-image: linear-gradient(90deg,white 17%,orange,goldenrod);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+.heading{
+    text-align: center;
+}
+.maincontent{
+    margin: 4% auto;
+    margin-bottom: 1%;
+    width: 98%;    
+}
+.courses,.college-review,.study-material{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+    padding: 2% 0px;    
+    width: 98%;
+    border: 2px solid rgb(161, 160, 160);
+    margin: 1px auto;
+}
+.courses h4,p,.college-review h4,p,.study-material h3,p{
+    text-align: center;
+}
+.courses img,.college-review img,.study-material img{
+    margin: 7px 2%; 
+    border-radius: 3px;   
+}
+.courses h3{
+    text-align: center;
+    background-color: aqua;
+}
+.courseitem1,.courseitem2,.courseitem3,.courseitem4,.courseitem5,.courseitem6{
+   background-color: rgb(236, 234, 234);
+   width: 20rem;
+   box-shadow: 9px 8px 4px darkgrey;
+}
+.btn{
+    padding: 7px 2px;
+    margin: 4px 37.5%;
+    font-weight: 500;
+    background-color: rgb(2, 153, 253);
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgba(2, 153, 253, 0.8);
+}
+.btn a:active,.btnn a {
+    color: blue;
+}
+.btnn{
+    padding: 7px 2px;
+    text-decoration: none;
+    margin: 4px 33%;
+    background-color: rgba(24, 250, 80, 0.7);
+    font-weight: 600;
+}
+.btnn a{
+    color: black;
+    text-decoration: none;
+}
+.btnn:hover{
+    background-image: conic-gradient(red,orange,rgb(187, 187, 3),red);
+    font-weight: 700;
+}
+.btnn a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 3% 0px;    
+    width: 100%;
+    background-color: rgb(156, 155, 155);
+    flex-grow: 1;
+    color: white;
+    font-size: 17px;
+}
